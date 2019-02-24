@@ -1,0 +1,33 @@
+$badass: pink;
+body { 
+  margin: 0; 
+  background-color: $badass; 
+}
+
+.class1 {
+    background: red;
+    .class2 {
+        background: pink;
+    }
+    .class3 {
+        background: green;
+    }
+}
+
+h1 {
+    font-size: 26px;
+    color: black;
+
+    &.red {
+        color: red;
+    }
+    &.blue {
+        color: blue;
+        .red {
+            color: red;
+        }
+    }
+    .green {
+        color: green;
+    }
+}

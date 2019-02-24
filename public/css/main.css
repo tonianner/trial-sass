@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: pink; }
+
+.class1 {
+  background: red; }
+  .class1 .class2 {
+    background: pink; }
+  .class1 .class3 {
+    background: green; }
+
+h1 {
+  font-size: 26px;
+  color: black; }
+  h1.red {
+    color: red; }
+  h1.blue {
+    color: blue; }
+    h1.blue .red {
+      color: red; }
+  h1 .green {
+    color: green; }
